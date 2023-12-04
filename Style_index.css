@@ -1,0 +1,178 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: sans-serif;
+    height: 100vh;
+    justify-self:center ;
+    align-items: center;
+    background: #ffffff;
+   
+  }
+  
+  .logo {
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    
+  margin-left: 580px;
+  margin-top: 20px;
+  }
+  
+  .l-o{
+    color: rgb(0, 255, 204);
+  }
+  /* .logo p p{
+    color: #ff0000;
+  } */
+  .logo p{
+    display: inline;
+  }
+  .logo span {
+    /* color: #0073ff; */
+    color: #00ff48;
+  }
+  /* background: url(../images/icon-social.svg) no-repeat top left; */
+  /* https://www.cpuid.com/medias/images/icon-social.svg
+     */
+  
+  .navbar {
+   
+    position: fixed;
+    background-color:  #141d28;
+    /* border-radius: px; */
+    /* height: 30px; */
+    height: 110px;
+    margin-bottom: 50px;
+    /* width: 100%; */
+    width: 225vh;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    /* margin-bottom:  500px; */
+  
+    position: relative;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    /* font-size: 20px; */
+    font-size: 20px;
+    color:  #e9e9e9;
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #00ffff;
+  }
+
+  .fas {
+    /* float: right; */
+    margin-left: 10px;
+    padding-top: 3px;
+  } 
+  
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .navbar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #141d28;
+  }
+  
+  .navbar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .navbar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+
+.Congragulation{
+  border: 1px solid rgb(255, 0, 0);
+  margin-top: 100px;
+  margin-right:300px;
+  margin-left:300px;
+  padding-left: 0px;
+  background-color: #151a21;
+  color: #ff0000;
+  
+  font-weight: 500;
+  font-size: 50px;
+  
+}
+
+.container {
+      /* text-align: center; */
+      /* background-image: url('Quaid.jpg'); */
+      /* background-size: cover; 
+      background-color: #333;
+      padding-left:50px;
+      
+      */
+      margin-top: 100px;
+      border: 1px solid #f00ac2;
+      padding-right: 100px;
+      color: rgb(0, 255, 17);  
+      font-size: 40px; 
+       margin-right: 200px;
+      /* margin-left: 500px;  */
+    }
+
+    /* Centering the text within the container */
+    /* .center-text {
+      display: inline-block;
+    } */
+        /* Container styling */
+        .product-container {
+      width: 200px;
+      padding: 140px;
+      /* padding-left: 50px; */
+      margin: 100px;
+      text-align: center;
+      border: 4px solid #333;
+      display: inline-block;
+      box-sizing: border-box;
+      border-radius: 50px;
+    }
+
+    /* Customize the appearance of the products */
+    .product {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .price {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Adjust as needed */
